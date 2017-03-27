@@ -4,7 +4,7 @@ import (
         "log"
         "os"
 
-        "github.com/danehans/gonx/nx"
+        "github.com/caboucha/nxgo/nx"
 )
 
 func main() {
