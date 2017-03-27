@@ -13,13 +13,17 @@ Usage
 
     go get github.com/caboucha/nxgo
 
-2\. Set Environment variables to run program
+2\. Get Dependencies
+
+    go get github.com/gorilla/websocket
+
+3\. Set Environment variables to run program
 
     export NEXUS_HOSTS = "your-nexus-ip-address"
     export NEXUS_USER = "your-nexus-admin-username"
     export NEXUS_PASS = "your-nexus-admin-password"
 
-3\. Import the package in your program
+4\. Import the package in your program
 
     import "github.com/caboucha/nxgo/nx"
 
